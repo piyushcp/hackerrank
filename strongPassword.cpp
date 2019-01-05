@@ -36,7 +36,7 @@ int minimumNumber(int n, string password) {
     if(num ==0)
         req_leng++;
     if (n+req_leng < 6)
-      req_leng = req_leng + 6 - (req_leng + n );     
+      req_leng = 6-n;     
 
 return req_leng;   
 }  
